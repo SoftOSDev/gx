@@ -6,7 +6,7 @@
 <link rel="icon" type="image/png" href="https://huaxihao.eu.org/favicon.ico">
 <link href="chanlang.css" rel="stylesheet"/>
 <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
-<title>Hua的粉丝服务器</title>
+<title>捐赠</title>
 <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport'/>
 <link href="https://fonts.googleapis.com/css?family=Playfair+Display:400,700|Source+Sans+Pro:400,600,700" rel="stylesheet">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -53,10 +53,10 @@ translate.ignore.id.push('nt');
 	<div class="navbar-collapse collapse" id="navbarColor02" style="">
 		<ul class="navbar-nav mr-auto d-flex align-items-center">
 			<li class="nav-item">
-			<a class="nav-link" href="#">主页 <span class="sr-only">(current)</span></a>
+			<a class="nav-link" href="./#">主页 <span class="sr-only">(current)</span></a>
 			</li>
 			<li class="nav-item">
-			<a class="nav-link" href="#news">新闻</a>
+			<a class="nav-link" href="./#news">新闻</a>
 			</li>
 			<li class="nav-item">
 			<a class="nav-link" href="https://huaxihao.eu.org">博客</a>
@@ -93,25 +93,39 @@ translate.ignore.id.push('nt');
 <div class="container">
 	<div class="row justify-content-between">
 		<div class="col-md-8">
-			<h4 class="font-weight-bold spanborder"><span>信息</span></h4>
-				<h5><b>服务器状态</b></h5><br>
-				<script src="https://list.mczfw.cn/mczfw.js" async></script>
-				人数：<span ip="node3.hmmc.pro:20369">检测中</span><br>
-				延迟：<span ping="node3.hmmc.pro:20369">检测中</span><br>
-				Motd：<span motd="node3.hmmc.pro:20369">检测中</span><br>
-				<br><h5><b>腐竹的阐释</b></h5><br>
-				<p>服务器开服于2024年7月4日，秉承着原版的目标，我们不会开mod服，氪金服，跑路服，快餐服，也不可能开。服务器版本互通，为1.17以上的版本皆能进入。如果你没有正版，我们可以您免费送上一个正版，您可以做一些任务，如挖钻石/合金，即可兑换正版，绝对真实</p>
-				<br><h5 id="news"><b>新闻</b></h5><br>
-				<ul>
-					<li>2024/8/6 腐竹撰写此网站，加入更改语言选项</li>
-					<li>2024/8/5 Minecraft_小皮（id:hezifeng）与腐竹对骂，已被永久IP封禁处理</li>
-					<li>2024/7/31 腐竹购买阿里云服务器，开启二周目，并承认，永不关服</li>
-					<li>2024/7/30 原服务器商跑路，导致存档丢失，遂关闭一周目</li>
-					<li>2024/7/23 服务器加入插件，使玩家回家，获取鞘翅等更加方便</li>
-					<li>2024/7/16 服务器人数一度暴涨至10人</li>
-					<li>2024/7/5 腐竹开始送正版活动</li>
-					<li>2024/7/4 Hua的粉丝服一周目正式开服</li>
-				</ul>
+			<h4 class="font-weight-bold spanborder"><span>捐赠</span></h4>
+			<br><h5><b>给我们捐赠吧！</b></h5>
+			<br><p>服务器为，公益服，纯为爱发电，如果你愿意，请给我们捐赠吧！</p>
+			<p>只要你捐赠了，你就可以获得<code>[捐赠者]</code>头衔</p>
+			<p>如果你捐赠了（可累计）3R以上，即可获得一下奖励</p>
+			<p style="color:red"><b>本服为原版生存服务器，因此积分不能兑换服内任何特殊权限！</b></p>
+			<ul>
+				<li>3R+ : 鞘翅 x1 + PCL II 快照（捐赠）版</li>
+				<li>9R+ : 9R以下的权益 + 我的世界正版账号（无次数限制）</li>
+				<li>15R+ : 15R以下的权益 + 基岩 x1 + 任意一本附魔书（正常生存能获取的）</li>
+			</ul>
+			<a class="nav-link" onclick="dashangToggle()" class="dashang" href="javascript:;">点我捐赠</a><br>
+			<p style="color:red"><b>为了防止某些人恶意谩骂服务器为商业服，服务器也推出TMR系统</b></p>
+			<p>即使用游戏内的资源换取捐赠的RMB，如果想换，请私信(qq)2708583866 或 3093634343</p>
+			<ul>
+				<li>1钻石 = 0.05R</li>
+				<li>1绿宝石 = 0.01R</li>
+				<li>1下界合金 = 0.5R</li>
+				<li>拉1个人（最多2个） = 0.5R</li>
+			</ul>
+			<p><b>已发出TMR:</b></p>
+			<table bord="1" style="word-wrap:break-word;" width="92%">
+				<thead style="background-color: rgb(255, 237, 154);">
+				<tr>
+					<td width="50">人员</td>
+					<td width="50">数额</td>
+					<td width="150">变动</td>
+					<td width="150">原因</td>
+				</tr>
+				<thead style="background-color: rgb(255, 255, 255);"></thead>
+				<script>runtab(1);</script>
+			</thead>
+		</table>
 		</div>
 		<div class="col-md-4 pl-4">
             <h4 class="font-weight-bold spanborder"><span>评论</span></h4>
@@ -157,5 +171,56 @@ translate.ignore.id.push('nt');
 <script src="./assets/js/vendor/popper.min.js" type="text/javascript"></script>
 <script src="./assets/js/vendor/bootstrap.min.js" type="text/javascript"></script>
 <script src="./assets/js/functions.js" type="text/javascript"></script>
+<div class="hide_box"></div>
+          <div class="shang_box">
+              <a class="shang_close" href="javascript:void(0)" onclick="dashangToggle()" title="关闭">取消</a>
+              <div class="shang_tit">
+                  <p>感谢您的支持</p>
+              </div>
+              <div class="shang_payimg" style="width: 170px;height: 170px;">
+                  <img src="https://huaxihao.eu.org/pay.png" alt="扫码支持" title="扫一扫">
+              </div>
+              <br>
+              <div class="pay_explain">请按照价格支付</div>
+              <br><br><br><br><br>
+              <div class="shang_info">
+                  <p>请打开<span id="shang_pay_txt">微信</span>扫一扫,付完请加QQ：2708583866获取</p>
+                  <p>Powered by <a href="http://handing.eu.org" target="_blank" title="Handing">Handing</a></p>
+              </div>
+              <script>
+        $(function(){
+        	$(".pay_item").click(function(){
+        		$(this).addClass('checked').siblings('.pay_item').removeClass('checked');
+        		var dataid=$(this).attr('data-id');
+        		$(".shang_payimg img").attr("src","https://static.runoob.com/images/dashang/"+dataid+"img.png");
+        		$("#shang_pay_txt").text(dataid=="alipay"?"支付宝":"微信");
+        	});
+        });
+        function dashangToggle(){
+        	$(".hide_box").fadeToggle();
+        	$(".shang_box").fadeToggle();
+        }
+    </script>
+    <style>
+              .content{width:80%;margin:10px auto;}
+        .hide_box{z-index:999;filter:alpha(opacity=50);background:#666;opacity: 0.5;-moz-opacity: 0.5;left:0;top:0;height:99%;width:100%;position:fixed;display:none;}
+        .shang_box{width:540px;height:540px;padding:10px;background-color:#fff;border-radius:10px;position:fixed;z-index:1000;left:50%;top:50%;margin-left:-280px;margin-top:-280px;border:1px dotted #dedede;display:none;}
+        .shang_box img{border:none;border-width:0;}
+        .dashang{display:block;width:100px;margin:5px auto;height:25px;line-height:25px;padding:10px;background-color:#E74851;color:#fff;text-align:center;text-decoration:none;border-radius:10px;font-weight:bold;font-size:16px;transition: all 0.3s;}
+        .dashang:hover{opacity:0.8;padding:15px;font-size:18px;}
+        .shang_close{float:right;display:inline-block;}
+                .shang_logo{display:block;text-align:center;margin:20px auto;}
+        .shang_tit{width: 100%;height: 75px;text-align: center;line-height: 66px;color: #a3a3a3;font-size: 16px;background: url('//static.runoob.com/images/dashang/cy-reward-title-bg.jpg');font-family: 'Microsoft YaHei';margin-top: 7px;margin-right:2px;}
+        .shang_tit p{color:#a3a3a3;text-align:center;font-size:16px;}
+        .shang_payimg{width:140px;padding:10px;border:6px solid #EA5F00;margin:0 auto;border-radius:3px;height:140px;}
+        .shang_payimg img{display:block;text-align:center;width:140px;height:140px; }
+        .pay_explain{text-align:center;margin:10px auto;font-size:12px;color:#545454;}
+        .radiobox{width: 16px;height: 16px;background: url('https://static.runoob.com/images/dashang/radio2.jpg');display: block;float: left;margin-top: 5px;margin-right: 14px;}
+        .checked .radiobox{background:url('https://static.runoob.com/images/dashang/radio1.jpg');}
+        .shang_payselect{text-align:center;margin:0 auto;margin-top:40px;cursor:pointer;height:60px;width:280px;}
+        .shang_payselect .pay_item{display:inline-block;margin-right:10px;float:left;}
+        .shang_info{clear:both;}
+        .shang_info p,.shang_info a{color:#C3C3C3;text-align:center;font-size:12px;text-decoration:none;line-height:2em;}
+    </style>
 </body>
 </html>
